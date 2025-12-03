@@ -30,20 +30,19 @@ export function HeroSection() {
             <div className="space-y-4 text-sm md:text-base leading-relaxed text-[#E9E9E9] max-w-xl mx-auto md:mx-0">
               <p>
                 「薬に頼り続ける毎日」から、そっと一歩抜け出してみませんか。
-                からだの仕組み、とりわけ
-                <span className="underline decoration-[#F5D193]/60 decoration-1 underline-offset-4">
-                  血管の働き
-                </span>
-                を理解することが、あなたの本来の力を取り戻す第一歩になります。
+                血圧やコレステロールの数値に振り回される前に、まずは
+                全身を支える土台である「血管」の働きを知ることが、
+                本来のコンディションを取り戻す第一歩になります。
               </p>
               <p>
-                最新のホリスティック医療理論に基づき、
-                今日から実践できる
-                <span className="font-medium">“血管からの再設計”</span>
-                を、ていねいに、誠実にお伝えします。
+                製薬会社での研究と臨床現場での経験をもとに、
+                最新のホリスティック医療の視点から、
+                経営者が今日から実践できる
+                <span className="font-medium">「血管からの再設計」</span>
+                のポイントを、誠実にお伝えします。
               </p>
               <p className="text-xs md:text-sm text-[#F5D193]/90">
-                静かに、確実に。血管は、これからのあなたの未来を支える礎になります。
+                静かに、確実に。血管は、これからのあなたの未来を支える見えないインフラです。
               </p>
             </div>
 
