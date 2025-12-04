@@ -1,0 +1,15 @@
+{
+  // GitHub Copilot の拡張機能統合を有効化（デフォルト）
+  "github.copilot.enable": {
+    "*": true
+  },
+  
+  // Chat 拡張機能の統合を有効化
+  "chat.extensionUnification.enabled": true,
+  
+  // TypeScript/JavaScript での Copilot を有効化
+  "github.copilot.editor.enableAutoCompletions": true,
+  
+  // インライン補完を有効化
+  "editor.inlineSuggest.enabled": true
+}
