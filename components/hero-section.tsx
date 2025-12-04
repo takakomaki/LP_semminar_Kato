@@ -21,7 +21,7 @@ export function HeroSection() {
               </p>
 
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-relaxed tracking-wide border-b border-[#F5D193]/60 pb-4">
-                血管革命――体の根本から、
+                血管革命 ― 体の根本から
                 <br className="hidden md:block" />
                 人生の健康基盤を静かに整える
               </h1>
@@ -36,7 +36,7 @@ export function HeroSection() {
               </p>
               <p>
                 製薬会社での研究と臨床現場での経験をもとに、
-                最新のホリスティック医療の視点から、
+                最新のホリスティック医療と東洋医学の視点から、
                 経営者が今日から実践できる
                 <span className="font-medium">「血管からの再設計」</span>
                 のポイントを、誠実にお伝えします。
@@ -55,7 +55,7 @@ export function HeroSection() {
                 無料セミナーに参加する
               </Button>
               <p className="text-[11px] md:text-xs text-[#D0D0D0]">
-                ※ 経営者・経営幹部の方対象／オンライン開催
+                ※ 経営者・経営幹部の方対象
               </p>
             </div>
           </div>
