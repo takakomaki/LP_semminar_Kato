@@ -3,7 +3,7 @@ import { ArrowDown } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0E1C36] text-[#F9F9F9]">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0E1C36] text-[#F9F9F9]">
       {/* 光のレイヤー（透明な層） */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 -left-24 w-[40rem] h-[40rem] rounded-full bg-[#F5D193]/15 blur-3xl" />

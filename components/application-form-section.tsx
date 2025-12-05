@@ -144,7 +144,7 @@ export default function SeminarApplicationPage() {
 
   // ====== 入力フォーム画面 ====================
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-50 px-4">
+    <div id="application" className="flex min-h-screen items-center justify-center bg-slate-50 px-4">
       <Card className="w-full max-w-xl shadow-lg">
         <CardHeader>
           <CardTitle className="text-xl md:text-2xl">

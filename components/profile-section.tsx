@@ -1,6 +1,6 @@
 export function ProfileSection() {
   return (
-    <section className="py-24 md:py-32 bg-background">
+    <section id="profile" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-sm tracking-[0.2em] text-muted-foreground mb-4">INSTRUCTOR</p>
