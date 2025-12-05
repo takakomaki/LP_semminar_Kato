@@ -51,14 +51,14 @@ export function FaqSection() {
   return (
     <section
       id="faq"
-      className="w-full bg-slate-50 px-4 py-12 md:py-16 lg:py-20"
+      className="w-full bg-[#F9F9F9] px-4 py-12 md:py-16 lg:py-20"
     >
       <div className="mx-auto max-w-3xl">
         <div className="mb-8 text-center">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#0E1C36]/60">
             FAQ
           </p>
-          <h2 className="mt-2 text-2xl font-semibold tracking-tight md:text-3xl">
+          <h2 className="mt-2 text-2xl font-semibold tracking-tight md:text-3xl text-[#0E1C36]">
             よくあるご質問
           </h2>
           <p className="mt-3 text-sm text-muted-foreground md:text-base">
@@ -71,7 +71,7 @@ export function FaqSection() {
             <AccordionItem
               key={item.id}
               value={item.id}
-              className="border border-slate-200 bg-white px-4 rounded-xl"
+              className="border border-[#0E1C36]/10 bg-white px-4 rounded-xl hover:border-[#F5D193] transition-colors"
             >
               <AccordionTrigger className="text-left text-sm font-medium md:text-base">
                 {item.question}
