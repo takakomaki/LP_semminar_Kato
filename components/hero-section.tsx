@@ -3,7 +3,10 @@ import { ArrowDown } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0E1C36] text-[#F9F9F9]">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0E1C36] text-[#F9F9F9]"
+    >
       {/* 光のレイヤー（透明な層） */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 -left-24 w-[40rem] h-[40rem] rounded-full bg-[#F5D193]/15 blur-3xl" />
@@ -21,41 +24,38 @@ export function HeroSection() {
               </p>
 
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-relaxed tracking-wide border-b border-[#F5D193]/60 pb-4">
-                血管革命 ― 体の根本から
+                薬に頼らない人生への第一歩
                 <br className="hidden md:block" />
-                人生の健康基盤を静かに整える
+                60代からの「血管・自律神経」健康セミナー
               </h1>
             </div>
 
             <div className="space-y-4 text-sm md:text-base leading-relaxed text-[#E9E9E9] max-w-xl mx-auto md:mx-0">
               <p>
-                「薬に頼り続ける毎日」から、そっと一歩抜け出してみませんか。
-                血圧やコレステロールの数値に振り回される前に、まずは
-                全身を支える土台である「血管」の働きを知ることが、
-                本来のコンディションを取り戻す第一歩になります。
+                「このままずっと、薬を飲み続けるしかないのかな…」
+                血圧・血糖・コレステロールの薬を続けながら、そんな不安を抱えていませんか。
               </p>
               <p>
-                製薬会社での研究と臨床現場での経験をもとに、
-                最新のホリスティック医療と東洋医学の視点から、
-                経営者が今日から確実に実践できる
-                <span className="font-medium">「血管からの再設計」</span>
-                のポイントをお伝えします。
+                本セミナーでは、製薬会社の研究・現場経験を重ねてきた薬剤師・加藤雅俊が、
+                『なぜ薬を飲み続けても根本的には良くならないのか』という真実と、
+                薬に頼りきらずに体を整えるための具体的な道筋をお伝えします。
               </p>
               <p className="text-xs md:text-sm text-[#F5D193]/90">
-                静かに、確実に。血管は、これからのあなたの未来を支える見えないインフラです。
+                「もう年だから仕方ない」とあきらめる前に、ご自身の体にまだ残された
+                “回復力” を、一緒に思い出してみませんか。
               </p>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-6 justify-center md:justify-start">
+            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 justify-center md:justify-start">
               <Button
                 size="lg"
                 className="px-10 py-6 text-sm md:text-base tracking-wide border border-[#F5D193] bg-transparent text-[#F5D193] hover:bg-[#F5D193]/10 hover:text-[#F5D193]"
                 variant="outline"
               >
-                無料セミナーに参加する
+                10,000円セミナーに申し込む
               </Button>
               <p className="text-[11px] md:text-xs text-[#D0D0D0]">
-                ※ 経営者・経営幹部の方対象
+                ※ どなたでもご参加いただけます
               </p>
             </div>
           </div>
